@@ -18,6 +18,7 @@ ENV/
 # Exclude specific data files (keep only data_3.jsonl)
 data/data.jsonl
 data/data_2.jsonl
+data/data_3.jsonl
 
 # IDE and OS specific files
 .vscode/settings.json

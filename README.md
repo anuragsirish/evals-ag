@@ -42,14 +42,7 @@ A comprehensive evaluation framework for Generative AI responses using Azure AI 
 ### Running the Evaluation
 
 #### Option 1: Using Jupyter Lab
-```bash
-# Start Jupyter Lab
-jupyter lab
 
-# Open genai_evals.ipynb and run all cells
-```
-
-#### Option 2: Using VS Code
 ```bash
 # Open in VS Code
 code .
@@ -67,7 +60,7 @@ Your evaluation data should be in JSONL format with the following required field
 ```json
 {
   "query": "User's question or prompt",
-  "context": "Relevant background information (can be empty)",
+  "context": "Relevant background information from retrieved documents at inference time (can be empty)",
   "response": "AI model's response to evaluate",
   "ground_truth": "Expected or reference response"
 }
@@ -101,15 +94,6 @@ evaluator_config = {
 }
 ```
 
-### Example Data Entry
-```json
-{
-  "query": "Are cargo freight exemptions allowed under travel regulations?",
-  "context": "OFAC travel exemption regulations",
-  "response": "No. According to 31 CFR § 545.208, the travel exemption applies only to transactions ordinarily incident to travel...",
-  "ground_truth": "No. According to 31 CFR § 545.208, the travel exemption applies only to transactions ordinarily incident to travel..."
-}
-```
 
 ## 📋 Evaluation Metrics
 
