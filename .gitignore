@@ -15,10 +15,15 @@ venv/
 env/
 ENV/
 
-# Exclude specific data files (keep only data_3.jsonl)
+# Exclude specific data files
 data/data.jsonl
 data/data_2.jsonl
 data/data_3.jsonl
+
+# Exclude notebook and results files
+genai_evals.ipynb
+results.csv
+results.jsonl
 
 # IDE and OS specific files
 .vscode/settings.json
@@ -71,3 +76,4 @@ coverage.xml
 *.tmp
 *.temp
 *~
+
