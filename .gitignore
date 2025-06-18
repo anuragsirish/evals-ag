@@ -20,10 +20,12 @@ data/data.jsonl
 data/data_2.jsonl
 data/data_3.jsonl
 
-# Exclude notebook and results files
-genai_evals.ipynb
+# Exclude results files
 results.csv
 results.jsonl
+
+# Exclude notebook files
+genai_evals.ipynb
 
 # IDE and OS specific files
 .vscode/settings.json
