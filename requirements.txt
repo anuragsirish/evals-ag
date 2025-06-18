@@ -1,0 +1,11 @@
+azure-ai-evaluation
+azure-identity
+azure-ai-projects
+openai
+promptflow
+promptflow-azure
+python-dotenv
+pandas
+typing-extensions
+notebook
+ipykernel

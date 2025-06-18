@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "genai-evals",
+			"path": "."
+		},
+		{
+			"name": "__pycache__",
+			"path": "../../azureai-samples-1/scenarios/evaluate/Supported_Evaluation_Metrics/AI_Judge_Evaluators_Quality/__pycache__"
+		}
+	],
+	"settings": {}
+}
